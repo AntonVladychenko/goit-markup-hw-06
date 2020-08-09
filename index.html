@@ -83,86 +83,6 @@ s<!DOCTYPE html>
           <button class="btn-heroe" type="button" data-modal-open>
             Заказать услугу
           </button>
-
-          <!-- forma-zayavka -->
-          <div class="backdrop is-hidden" data-modal>
-            <div class="main-form">
-              <form class="form-class" action="#" method="get">
-                <h2 class="form-title">
-                  Оставьте свои данные, мы вам перезвоним
-                </h2>
-
-                <div class="form-field">
-                  <input class="form-input" type="text" name="name" id="name" />
-                  <svg class="form-icons">
-                    <use
-                      href="./img/svg/symbol-defs-form.svg#icon-person"
-                    ></use>
-                  </svg>
-
-                  <label class="form-label" for="name">имя</label>
-                </div>
-                <!--  -->
-                <div class="form-field">
-                  <input
-                    class="form-input"
-                    type="tel"
-                    name="phone"
-                    id="phone"
-                  />
-                  <svg class="form-icons">
-                    <use href="./img/svg/symbol-defs-form.svg#icon-phone"></use>
-                  </svg>
-
-                  <label class="form-label" for="phone">телефон</label>
-                </div>
-                <!--  -->
-                <div class="form-field">
-                  <input
-                    class="form-input"
-                    type="email"
-                    name="mail"
-                    id="mail"
-                  />
-                  <svg class="form-icons">
-                    <use href="./img/svg/symbol-defs-form.svg#icon-mail"></use>
-                  </svg>
-                  <label class="form-label" for="mail">почта</label>
-                </div>
-                <!--  -->
-                <div class="form-field">
-                  <textarea
-                    class="textarea-form"
-                    name="comment"
-                    id=""
-                    cols="30"
-                    rows="10"
-                  ></textarea>
-                </div>
-
-                <div>
-                  <input
-                    class="agreement-input"
-                    type="checkbox"
-                    name="agreement"
-                    id="agreement"
-                  />
-                  <label class="label-input" for="agreement"
-                    >Соглашаюсь с рассылкой и принимаю
-                    <a href="#">Условия договора</a>
-                  </label>
-                </div>
-
-                <button class="btn-forma" type="submit">отправить</button>
-
-                <button class="btn-closedform" data-modal-close>
-                  <svg class="form-icons-clouse">
-                    <use href="./img/svg/symbol-defs-form.svg#icon-close"></use>
-                  </svg>
-                </button>
-              </form>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -652,6 +572,73 @@ s<!DOCTYPE html>
         </div>
       </div>
     </footer>
+    <!-- forma-zayavka -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="main-form">
+        <form class="form-class" action="#" method="get">
+          <h2 class="form-title">
+            Оставьте свои данные, мы вам перезвоним
+          </h2>
+
+          <div class="form-field">
+            <input class="form-input" type="text" name="name" id="name" />
+            <svg class="form-icons">
+              <use href="./img/svg/symbol-defs-form.svg#icon-person"></use>
+            </svg>
+
+            <label class="form-label" for="name">имя</label>
+          </div>
+          <!--  -->
+          <div class="form-field">
+            <input class="form-input" type="tel" name="phone" id="phone" />
+            <svg class="form-icons">
+              <use href="./img/svg/symbol-defs-form.svg#icon-phone"></use>
+            </svg>
+
+            <label class="form-label" for="phone">телефон</label>
+          </div>
+          <!--  -->
+          <div class="form-field">
+            <input class="form-input" type="email" name="mail" id="mail" />
+            <svg class="form-icons">
+              <use href="./img/svg/symbol-defs-form.svg#icon-mail"></use>
+            </svg>
+            <label class="form-label" for="mail">почта</label>
+          </div>
+          <!--  -->
+          <div class="form-field">
+            <textarea
+              class="textarea-form"
+              name="comment"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div>
+            <input
+              class="agreement-input"
+              type="checkbox"
+              name="agreement"
+              id="agreement"
+            />
+            <label class="label-input" for="agreement"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="#">Условия договора</a>
+            </label>
+          </div>
+
+          <button class="btn-forma" type="submit">отправить</button>
+
+          <button class="btn-closedform" data-modal-close>
+            <svg class="form-icons-clouse">
+              <use href="./img/svg/symbol-defs-form.svg#icon-close"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
