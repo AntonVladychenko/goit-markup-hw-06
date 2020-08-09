@@ -783,6 +783,7 @@ span {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* padding: 40px; */
   width: 528px;
   min-height: 581px;
   outline: 1px solid black;
@@ -839,7 +840,10 @@ span {
 
 .form-title {
   padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-bottom: 30px;
+  width: 100%;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
@@ -938,19 +942,19 @@ span {
 }
 .btn-closedform {
   position: absolute;
+  background-color: #ffffff;
   padding: 6px;
   top: 8px;
   right: 8px;
-  background: #ffffff;
-
-  border: none;
-}
-.form-icons-clouse {
+  border-radius: 50%;
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
+}
+.form-icons-clouse {
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
 }
 
 .btn-closedform:hover {
