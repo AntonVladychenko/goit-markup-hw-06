@@ -575,13 +575,19 @@ s<!DOCTYPE html>
     <!-- forma-zayavka -->
     <div class="backdrop is-hidden" data-modal>
       <div class="main-form">
-        <form class="form-class" action="#" method="get">
+        <form class="form-class" autocomplete="off" action="#" method="get">
           <h2 class="form-title">
             Оставьте свои данные, мы вам перезвоним
           </h2>
 
           <div class="form-field">
-            <input class="form-input" type="text" name="name" id="name" />
+            <input
+              class="form-input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder=" "
+            />
             <svg class="form-icons">
               <use href="./img/svg/symbol-defs-form.svg#icon-person"></use>
             </svg>
@@ -590,7 +596,13 @@ s<!DOCTYPE html>
           </div>
           <!--  -->
           <div class="form-field">
-            <input class="form-input" type="tel" name="phone" id="phone" />
+            <input
+              class="form-input"
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder=" "
+            />
             <svg class="form-icons">
               <use href="./img/svg/symbol-defs-form.svg#icon-phone"></use>
             </svg>
@@ -599,7 +611,13 @@ s<!DOCTYPE html>
           </div>
           <!--  -->
           <div class="form-field">
-            <input class="form-input" type="email" name="mail" id="mail" />
+            <input
+              class="form-input"
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder=" "
+            />
             <svg class="form-icons">
               <use href="./img/svg/symbol-defs-form.svg#icon-mail"></use>
             </svg>
@@ -610,6 +628,7 @@ s<!DOCTYPE html>
             <textarea
               class="textarea-form"
               name="comment"
+              placeholder="коментарий"
               id=""
               cols="30"
               rows="10"
@@ -630,13 +649,12 @@ s<!DOCTYPE html>
           </div>
 
           <button class="btn-forma" type="submit">отправить</button>
-
-          <button class="btn-closedform" data-modal-close>
-            <svg class="form-icons-clouse">
-              <use href="./img/svg/symbol-defs-form.svg#icon-close"></use>
-            </svg>
-          </button>
         </form>
+        <button class="btn-closedform" data-modal-close>
+          <svg class="form-icons-clouse">
+            <use href="./img/svg/symbol-defs-clouse.svg#cicon-close-1-2"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
