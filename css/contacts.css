@@ -1,0 +1,18 @@
+.block {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 800px;
+  height: 600px;
+  padding: 20p;
+  margin: 0 auto;
+  border: 10px solid red;
+  background-color: royalblue;
+  /* background-image: url(../img/portfolio/komp.jpg);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-position: right 10px bottom 20px;
+  background-size: contain; */
+  background-clip: content-box;
+}
