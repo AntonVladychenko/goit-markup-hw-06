@@ -1,4 +1,4 @@
-s<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -558,17 +558,19 @@ s<!DOCTYPE html>
         <!--Подпишитесь на рассылку-->
         <div class="actiondiv-letters">
           <b class="action subscribeletters">Подпишитесь на рассылку</b>
-          <div class="subscribe-div">
-            <input
-              class="subscribe-input"
-              placeholder="E-mail"
-              type="email"
-              name="email"
-            />
-            <button class="subscribe-buton subscribe-image" type="button">
-              Подписаться
-            </button>
-          </div>
+          <form action="#" method="get">
+            <div class="subscribe-div">
+              <input
+                class="subscribe-input"
+                placeholder="E-mail"
+                type="email"
+                name="email"
+              />
+              <button class="subscribe-buton subscribe-image" type="button">
+                Подписаться
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -635,9 +637,9 @@ s<!DOCTYPE html>
             ></textarea>
           </div>
 
-          <div>
+          <div class="checkbox-div">
             <input
-              class="agreement-input"
+              class="checkbox-input"
               type="checkbox"
               name="agreement"
               id="agreement"
@@ -647,12 +649,12 @@ s<!DOCTYPE html>
               <a href="#">Условия договора</a>
             </label>
           </div>
-
-          <button class="btn-forma" type="submit">отправить</button>
         </form>
+        <button class="btn-forma" type="submit">отправить</button>
+
         <button class="btn-closedform" data-modal-close>
           <svg class="form-icons-clouse">
-            <use href="./img/svg/symbol-defs-clouse.svg#cicon-close-1-2"></use>
+            <use href="./img/svg/symbol-defs-last.svg#icon-close-black-1"></use>
           </svg>
         </button>
       </div>
