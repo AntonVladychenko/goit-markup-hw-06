@@ -813,10 +813,16 @@ span {
 
   font-size: 14px;
 }
-.form-field:focus + .form-input {
+/* .form-field:focus + .form-input {
   border-color: inherit;
   border-color: 1px solid #2196f3;
+} */
+.form-input:focus,
+.textarea-form:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
 }
+
 .form-input:focus ~ .form-label,
 .form-input:not(:placeholder-shown) ~ .form-label {
   color: #2196f3;
@@ -873,10 +879,10 @@ span {
 
   color: #212121;
 }
-.textarea-form:hover,
+/* .textarea-form:hover,
 .textarea-form:focus {
   border: 1px solid #2196f3;
-}
+} */
 .checkbox-div {
   display: flex;
   justify-content: center;
