@@ -760,7 +760,6 @@ span {
   margin-left: 10px;
 }
 /* стилиация формы_______________________________________________________________ */
-/* Убрать потом секшн!!!!!!!!!!!!!!!! */
 
 .backdrop {
   position: fixed;
@@ -858,13 +857,13 @@ span {
 
   color: #757575;
 }
-/* .dogovor {
-  display: inline-block;
-  text-align: center;
-  text-decoration: underline;
-} */
+.label-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .icon {
-  content: "";
+  margin-right: 9px;
   width: 16px;
   height: 15px;
   text-align: center;
