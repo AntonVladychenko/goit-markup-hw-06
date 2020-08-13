@@ -858,11 +858,11 @@ span {
 
   color: #757575;
 }
-.dogovor {
+/* .dogovor {
   display: inline-block;
   text-align: center;
   text-decoration: underline;
-}
+} */
 .icon {
   content: "";
   width: 16px;
@@ -922,7 +922,7 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
-  border: none;
+  border-color: #2196f3;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
